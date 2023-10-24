@@ -1,0 +1,2 @@
+# Compiling protobuf for Go
+protoc --proto_path=proto --go_out=genproto server.proto --go-grpc_out=genproto server.proto
